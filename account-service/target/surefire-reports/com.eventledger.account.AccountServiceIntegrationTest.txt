@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eventledger.account.AccountServiceIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.99 s -- in com.eventledger.account.AccountServiceIntegrationTest

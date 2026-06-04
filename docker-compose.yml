@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+
+  account-service:
+    build:
+      context: ./account-service
+    container_name: account-service
+    ports:
+      - "8081:8081"
+
+  event-gateway:
+    build:
+      context: ./event-gateway
+    container_name: event-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - account-service
